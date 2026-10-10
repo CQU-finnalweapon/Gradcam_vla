@@ -1,0 +1,17 @@
+# Direct dependencies for the tested Spirit Qwen3-VL adapter.
+# Install compatible CUDA PyTorch/torchvision and the checkpoint's model repo first.
+# This does not replace that external repository's own dependencies.
+transformers==4.57.1
+tokenizers==0.22.2
+huggingface-hub==0.36.2
+numpy==2.2.6
+Pillow==12.1.0
+matplotlib==3.10.8
+pyarrow==22.0.0
+safetensors==0.7.0
+draccus==0.11.6
+datasets==3.6.0
+jsonlines==4.0.0
+einops==0.8.2
+opencv-python-headless>=4.10,<5
+pytest==9.1.1
